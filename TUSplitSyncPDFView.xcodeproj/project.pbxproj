@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B2CFC0177D1EC70064860C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B2CFBF177D1EC70064860C /* UIKit.framework */; };
+		54B2CFC2177D1EC70064860C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B2CFC1177D1EC70064860C /* Foundation.framework */; };
+		54B2CFC4177D1EC70064860C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B2CFC3177D1EC70064860C /* CoreGraphics.framework */; };
+		54B2CFCA177D1EC70064860C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B2CFC8177D1EC70064860C /* InfoPlist.strings */; };
+		54B2CFCC177D1EC70064860C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFCB177D1EC70064860C /* main.m */; };
+		54B2CFD0177D1EC70064860C /* TUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFCF177D1EC70064860C /* TUAppDelegate.m */; };
+		54B2CFD2177D1EC70064860C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B2CFD1177D1EC70064860C /* Default.png */; };
+		54B2CFD4177D1EC70064860C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B2CFD3177D1EC70064860C /* Default@2x.png */; };
+		54B2CFD6177D1EC70064860C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B2CFD5177D1EC70064860C /* Default-568h@2x.png */; };
+		54B2CFD9177D1EC70064860C /* TUSplitSyncPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFD8177D1EC70064860C /* TUSplitSyncPDFViewController.m */; };
+		54B2CFED177D21C10064860C /* TestPage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 54B2CFEA177D21C10064860C /* TestPage.pdf */; };
+		54B2CFEE177D21C10064860C /* TUSeparateBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFEC177D21C10064860C /* TUSeparateBarView.m */; };
+		54B2CFF5177D22630064860C /* TUSplitedPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFF4177D22630064860C /* TUSplitedPDFView.m */; };
+		54B2CFF7177D22C50064860C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B2CFF6177D22C50064860C /* QuartzCore.framework */; };
+		54B2CFFA177D23510064860C /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2CFF9177D23510064860C /* TiledPDFView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54B2CFBB177D1EC70064860C /* TUSplitSyncPDFView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUSplitSyncPDFView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B2CFBF177D1EC70064860C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B2CFC1177D1EC70064860C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B2CFC3177D1EC70064860C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B2CFC7177D1EC70064860C /* TUSplitSyncPDFView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TUSplitSyncPDFView-Info.plist"; sourceTree = "<group>"; };
+		54B2CFC9177D1EC70064860C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B2CFCB177D1EC70064860C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54B2CFCD177D1EC70064860C /* TUSplitSyncPDFView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TUSplitSyncPDFView-Prefix.pch"; sourceTree = "<group>"; };
+		54B2CFCE177D1EC70064860C /* TUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUAppDelegate.h; sourceTree = "<group>"; };
+		54B2CFCF177D1EC70064860C /* TUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUAppDelegate.m; sourceTree = "<group>"; };
+		54B2CFD1177D1EC70064860C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54B2CFD3177D1EC70064860C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54B2CFD5177D1EC70064860C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54B2CFD7177D1EC70064860C /* TUSplitSyncPDFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUSplitSyncPDFViewController.h; sourceTree = "<group>"; };
+		54B2CFD8177D1EC70064860C /* TUSplitSyncPDFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUSplitSyncPDFViewController.m; sourceTree = "<group>"; };
+		54B2CFEA177D21C10064860C /* TestPage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TestPage.pdf; sourceTree = "<group>"; };
+		54B2CFEB177D21C10064860C /* TUSeparateBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSeparateBarView.h; sourceTree = "<group>"; };
+		54B2CFEC177D21C10064860C /* TUSeparateBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSeparateBarView.m; sourceTree = "<group>"; };
+		54B2CFF3177D22630064860C /* TUSplitedPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUSplitedPDFView.h; sourceTree = "<group>"; };
+		54B2CFF4177D22630064860C /* TUSplitedPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUSplitedPDFView.m; sourceTree = "<group>"; };
+		54B2CFF6177D22C50064860C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		54B2CFF8177D23510064860C /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		54B2CFF9177D23510064860C /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B2CFB8177D1EC70064860C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B2CFF7177D22C50064860C /* QuartzCore.framework in Frameworks */,
+				54B2CFC0177D1EC70064860C /* UIKit.framework in Frameworks */,
+				54B2CFC2177D1EC70064860C /* Foundation.framework in Frameworks */,
+				54B2CFC4177D1EC70064860C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B2CFB0177D1EC70064860C = {
+			isa = PBXGroup;
+			children = (
+				54B2CFC5177D1EC70064860C /* TUSplitSyncPDFView */,
+				54B2CFBE177D1EC70064860C /* Frameworks */,
+				54B2CFBC177D1EC70064860C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B2CFBC177D1EC70064860C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B2CFBB177D1EC70064860C /* TUSplitSyncPDFView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B2CFBE177D1EC70064860C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B2CFF6177D22C50064860C /* QuartzCore.framework */,
+				54B2CFBF177D1EC70064860C /* UIKit.framework */,
+				54B2CFC1177D1EC70064860C /* Foundation.framework */,
+				54B2CFC3177D1EC70064860C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54B2CFC5177D1EC70064860C /* TUSplitSyncPDFView */ = {
+			isa = PBXGroup;
+			children = (
+				54B2CFF8177D23510064860C /* TiledPDFView.h */,
+				54B2CFF9177D23510064860C /* TiledPDFView.m */,
+				54B2CFEA177D21C10064860C /* TestPage.pdf */,
+				54B2CFEB177D21C10064860C /* TUSeparateBarView.h */,
+				54B2CFEC177D21C10064860C /* TUSeparateBarView.m */,
+				54B2CFCE177D1EC70064860C /* TUAppDelegate.h */,
+				54B2CFCF177D1EC70064860C /* TUAppDelegate.m */,
+				54B2CFD7177D1EC70064860C /* TUSplitSyncPDFViewController.h */,
+				54B2CFD8177D1EC70064860C /* TUSplitSyncPDFViewController.m */,
+				54B2CFC6177D1EC70064860C /* Supporting Files */,
+				54B2CFF3177D22630064860C /* TUSplitedPDFView.h */,
+				54B2CFF4177D22630064860C /* TUSplitedPDFView.m */,
+			);
+			path = TUSplitSyncPDFView;
+			sourceTree = "<group>";
+		};
+		54B2CFC6177D1EC70064860C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54B2CFC7177D1EC70064860C /* TUSplitSyncPDFView-Info.plist */,
+				54B2CFC8177D1EC70064860C /* InfoPlist.strings */,
+				54B2CFCB177D1EC70064860C /* main.m */,
+				54B2CFCD177D1EC70064860C /* TUSplitSyncPDFView-Prefix.pch */,
+				54B2CFD1177D1EC70064860C /* Default.png */,
+				54B2CFD3177D1EC70064860C /* Default@2x.png */,
+				54B2CFD5177D1EC70064860C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B2CFBA177D1EC70064860C /* TUSplitSyncPDFView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B2CFE2177D1EC70064860C /* Build configuration list for PBXNativeTarget "TUSplitSyncPDFView" */;
+			buildPhases = (
+				54B2CFB7177D1EC70064860C /* Sources */,
+				54B2CFB8177D1EC70064860C /* Frameworks */,
+				54B2CFB9177D1EC70064860C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TUSplitSyncPDFView;
+			productName = TUSplitSyncPDFView;
+			productReference = 54B2CFBB177D1EC70064860C /* TUSplitSyncPDFView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54B2CFB2177D1EC70064860C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TU;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 54B2CFB5177D1EC70064860C /* Build configuration list for PBXProject "TUSplitSyncPDFView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54B2CFB0177D1EC70064860C;
+			productRefGroup = 54B2CFBC177D1EC70064860C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54B2CFBA177D1EC70064860C /* TUSplitSyncPDFView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B2CFB9177D1EC70064860C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B2CFCA177D1EC70064860C /* InfoPlist.strings in Resources */,
+				54B2CFD2177D1EC70064860C /* Default.png in Resources */,
+				54B2CFD4177D1EC70064860C /* Default@2x.png in Resources */,
+				54B2CFD6177D1EC70064860C /* Default-568h@2x.png in Resources */,
+				54B2CFED177D21C10064860C /* TestPage.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54B2CFB7177D1EC70064860C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B2CFCC177D1EC70064860C /* main.m in Sources */,
+				54B2CFD0177D1EC70064860C /* TUAppDelegate.m in Sources */,
+				54B2CFD9177D1EC70064860C /* TUSplitSyncPDFViewController.m in Sources */,
+				54B2CFEE177D21C10064860C /* TUSeparateBarView.m in Sources */,
+				54B2CFF5177D22630064860C /* TUSplitedPDFView.m in Sources */,
+				54B2CFFA177D23510064860C /* TiledPDFView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54B2CFC8177D1EC70064860C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B2CFC9177D1EC70064860C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54B2CFE0177D1EC70064860C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54B2CFE1177D1EC70064860C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54B2CFE3177D1EC70064860C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TUSplitSyncPDFView/TUSplitSyncPDFView-Prefix.pch";
+				INFOPLIST_FILE = "TUSplitSyncPDFView/TUSplitSyncPDFView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54B2CFE4177D1EC70064860C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TUSplitSyncPDFView/TUSplitSyncPDFView-Prefix.pch";
+				INFOPLIST_FILE = "TUSplitSyncPDFView/TUSplitSyncPDFView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54B2CFB5177D1EC70064860C /* Build configuration list for PBXProject "TUSplitSyncPDFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B2CFE0177D1EC70064860C /* Debug */,
+				54B2CFE1177D1EC70064860C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B2CFE2177D1EC70064860C /* Build configuration list for PBXNativeTarget "TUSplitSyncPDFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B2CFE3177D1EC70064860C /* Debug */,
+				54B2CFE4177D1EC70064860C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54B2CFB2177D1EC70064860C /* Project object */;
+}
